@@ -1,1 +1,1 @@
-All react basics done in fsd internship will be here
+All react basics done in FSD internship will be here
