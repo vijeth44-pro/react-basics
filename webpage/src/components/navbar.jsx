@@ -13,6 +13,7 @@ export default function navbar() {
       </ul>
       <div className="search-box">
         <input type="text" placeholder="search" />
+        <i class="fa-solid fa-magnifying-glass"></i>
       </div>
     </div>
   );
