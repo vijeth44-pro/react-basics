@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #d47979;
+    background: #e85959;
     padding: 15px 7%;
 }
 
@@ -27,7 +27,7 @@ ul li{
 }
 .search-box input{
     padding: 6px;
-    background: transparent;
+    border-radius: 30px;
     border:0;
     outline:0;
     color:#fff;
@@ -35,7 +35,7 @@ ul li{
     max-width: 200px;
 }
 .search-box input::placeholder{
-    color:#fff;
+    color:#1f1414;
 }
 .search-box i{
     width: 20px;
