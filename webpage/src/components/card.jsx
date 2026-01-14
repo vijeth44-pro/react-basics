@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function card({title,description,image}) {
+export default function Card({title,description,image}) {
     const newStyle={
         backgroundColor:'lightgrey',
         width:'300px',
