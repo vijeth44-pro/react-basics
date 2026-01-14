@@ -8,12 +8,11 @@ const App = () => {
     <div className="container">
       <Navbar />
       <Banner />
-      <div style={{display:'flex', gap:'20px', padding:'20px'}}>
-        <Card title={"Watch"} description={"Stylish analog watch for men and boys in chain"} image={'https://images.meesho.com/images/products/400056869/ne0yw_512.avif?width=360'} />
-        <Card title={"Shoe"} description={"Modern Trendy Men Casual Shoes"} image={'https://images.meesho.com/images/products/434491245/jmvmi_512.avif?width=360'}/>
-        <Card title={"Flower Pots [Plastic]"} description={"5 PIS COMBO OF THE Plastic Round Flower Pots for Home Planters, Terrace, Garden Etc | Pack of 05 | Multicolor | Suitable for Home Indoor & Outdoor Gardening Plants"} image={'https://images.meesho.com/images/products/422365361/lr4v0_512.avif?width=512'}/>
-        <Card title={"Oppo"} description={"OPPO A77s 8GB 128GB Starry Black- 4G Smartphone"} image={'https://images.meesho.com/images/products/540547590/kbjmx_512.avif?width=512'}/>
-        <Card title={"Ghar Soap"} description={"GHAR SOAPS MAGIC SOAP 100 GM"} image={'https://images.meesho.com/images/products/328554683/rrzge_512.avif?width=512'}/>
+      <div style={{display:'flex', gap:'20px', padding:'20px', flexWrap: 'wrap', justifyContent: 'center'}}>
+        <Card title={"Watches"} description={"Stylish analog watch for men and boys in chain"} image={'https://objects-prod.cdn.chopard.com/q_auto,f_auto,dpr_2/e_trim/c_lpad,w_iw,h_ih/c_lpad,ar_1:1,w_800,g_center/ProductsAssets/Web/298600-3014_01.png'} />
+        <Card title={"Shoes"} description={"Modern Trendy Men Casual Shoes"} image={'https://static.vecteezy.com/system/resources/thumbnails/057/459/922/small_2x/dramatic-rustic-running-shoes-bright-red-transparent-background-cutout-authentic-png.png'}/>
+        <Card title={"Flower Pots"} description={"Beautiful Flower vase"} image={'https://static.vecteezy.com/system/resources/thumbnails/023/742/329/small_2x/banana-plant-in-flowerpot-illustration-ai-generative-free-png.png'}/>
+        <Card title={"Phones"} description={"All brand phones available"} image={'https://static.vecteezy.com/system/resources/thumbnails/068/681/342/small_2x/3d-render-of-modern-smartphone-with-blue-screen-isolated-on-transparent-background-png.png'}/>
       </div>
     </div>
   )

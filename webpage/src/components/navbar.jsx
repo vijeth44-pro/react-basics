@@ -4,7 +4,7 @@ import "./navbar.css";
 export default function Navbar() {
   return (
     <div className="navbar">
-      <p className="meesho-logo">MEESHO</p>
+      <p className="meesho-logo">YESHU</p>
       <ul>
         <li>Home</li>
         <li>Products</li>
