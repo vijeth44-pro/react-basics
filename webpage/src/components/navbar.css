@@ -24,13 +24,10 @@ ul li{
     color: #333;
     transition: color 0.3s;
 }
-ul li:hover{
-    color: #9f2089;
-}
-.logo{
+.meesho-logo{
     font-size: 28px;
     font-weight: 700;
-    color: #9f2089;
+    color: #101010;
     text-decoration: none;
     letter-spacing: 0.5px;
 }
