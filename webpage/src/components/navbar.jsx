@@ -1,10 +1,9 @@
 import React from "react";
 import "./navbar.css";
 
-export default function navbar() {
+export default function Navbar() {
   return (
     <div className="navbar">
-      <img src="" alt="" className="logo"/>
       <ul>
         <li>Home</li>
         <li>Products</li>
@@ -13,7 +12,7 @@ export default function navbar() {
       </ul>
       <div className="search-box">
         <input type="text" placeholder="search" />
-        <i class="fa-solid fa-magnifying-glass"></i>
+        <i className="fa-solid fa-magnifying-glass"></i>
       </div>
     </div>
   );
